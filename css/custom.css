@@ -1,0 +1,64 @@
+/*! Place your custom styles here */
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.full-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.fm-boxes-container {
+    padding-bottom: 1rem;
+}
+
+.lindenmuth-list {
+    list-style: disc;
+    padding-left: 5rem;
+}
+
+.lindenmuth-list-2 {
+    list-style: square; 
+}
+
+.lindenmuth-list-3 {
+    list-style: circle;
+    padding-left: 5rem;
+}
+
+.lindenmuth-image {
+    width: 30px;
+    margin-left: 37%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+
+  width: 100%;
+  text-align: center;
+  color: green;
+}
+
+.pm-table {
+    display: table;
+}
+
+.btn--primary {
+    background-color: #BC1C1B !important;
+    border-color: #BC1C1B !important;
+}
+
+.link--primary {
+    color: #BC1C1B;
+}
+
+.color--primary {
+    color: #BC1C1B !important;
+}
