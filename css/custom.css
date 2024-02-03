@@ -70,7 +70,10 @@
     background-color: #ffffff; /* white */
 }
 
-/* set the width for the table columns */
+/* Set the first column text-center */
+.pm-table td:first-child {
+    text-align: center;
+}
 
 
 .btn--primary {
@@ -86,8 +89,11 @@
     color: #7D9CAE !important;
 }
 
-.contact-address {
-    padding-left: 3rem;
+@media screen and (max-width: 768px) {
+    .contact-address-text {
+        margin-top: 2rem !important;
+    }
+    
 }
 
 .home-image-link {
@@ -101,6 +107,10 @@
 /* media query for text center for screen size sm */
 @media (max-width: 576px) {
     .text-center-sm {
+        text-align: center;
+    }
+
+    .fm-header-justification {
         text-align: center;
     }
 }
@@ -135,4 +145,9 @@ footer .type--uppercase {
 
 footer ul {
     margin-bottom: 1rem !important;
+}
+
+.map-parent-container {
+    height: fit-content;
+    margin-bottom: 3rem;
 }
