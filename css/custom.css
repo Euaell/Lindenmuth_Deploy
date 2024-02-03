@@ -98,6 +98,13 @@
     transition: all 0.3s ease;
 }
 
+/* media query for text center for screen size sm */
+@media (max-width: 576px) {
+    .text-center-sm {
+        text-align: center;
+    }
+}
+
 .home-image-title:hover {
     font-weight: 500;
     text-decoration: none;
@@ -113,4 +120,11 @@
 .table-button {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.padding-vertical-zero {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
