@@ -128,3 +128,11 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+footer .type--uppercase {
+    margin-bottom: 0.1rem !important;
+}
+
+footer ul {
+    margin-bottom: 1rem !important;
+}
