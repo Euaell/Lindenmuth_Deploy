@@ -151,3 +151,11 @@ footer ul {
     height: fit-content;
     margin-bottom: 3rem;
 }
+
+@media (min-width: 900px) { /* This is the breakpoint for 'lg' screens in Bootstrap */
+    .dropdown__content {
+        font-size: 0.9em; /* Adjust as needed */
+
+        padding-left: 0.5rem !important;
+    }
+}
