@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 768px) {
     .contact-address-text {
-        margin-top: 2rem !important;
+        margin-top: 1rem !important;
     }
     
 }
@@ -149,7 +149,7 @@ footer ul {
 
 .map-parent-container {
     height: fit-content;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (min-width: 900px) and (max-width: 1200px) {
@@ -188,4 +188,10 @@ footer ul {
         padding-left: 0;
     }
     
+}
+
+.check-box-flex {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between;
 }
