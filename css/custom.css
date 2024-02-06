@@ -75,6 +75,9 @@
     text-align: center;
 }
 
+.pm-table td:first-child {
+    text-align: left;
+}
 
 .btn--primary {
     background-color: #4A75AD !important;
@@ -111,6 +114,12 @@
 
     .fm-header-justification {
         text-align: center;
+    }
+
+    .fm-h2header {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-top: 3rem;
     }
 }
 
@@ -202,4 +211,24 @@ footer ul {
 
 .fm-elements {
     padding: 1rem !important;
+}
+
+/* For screens greater than 767px */
+@media screen and (min-width: 768px) {
+    .custom-hidden-md {
+        display: none;
+    }
+    .custom-hidden-sm {
+        display: inline-block;
+    }
+}
+
+/* For screens less than or equal to 767px */
+@media screen and (max-width: 767px) {
+    .custom-hidden-md {
+        display: inline-block;
+    }
+    .custom-hidden-sm {
+        display: none;
+    }
 }
