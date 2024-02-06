@@ -71,7 +71,7 @@
 }
 
 /* Set the first column text-center */
-.pm-table td:first-child {
+.pm-table td {
     text-align: center;
 }
 
@@ -92,8 +92,7 @@
 @media screen and (max-width: 768px) {
     .contact-address-text {
         margin-top: 1rem !important;
-    }
-    
+    }    
 }
 
 .home-image-link {
@@ -194,4 +193,13 @@ footer ul {
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between;
+}
+
+.fm-elements > div {
+    height: 100%;
+    padding: 1rem !important;
+}
+
+.fm-elements {
+    padding: 1rem !important;
 }
