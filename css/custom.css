@@ -185,19 +185,6 @@ footer ul {
     }
 }
 
-.fit-content-width-about {
-    width: 50% !important;
-    padding-left: 1rem;
-}
-
-@media screen and (max-width: 998px) {
-    .fit-content-width-about {
-         width: 100% !important;
-        padding-left: 0;
-    }
-    
-}
-
 .check-box-flex {
     display: flex !important;
     flex-direction: column !important;
@@ -231,4 +218,21 @@ footer ul {
     .custom-hidden-sm {
         display: none;
     }
+}
+
+.about-stat-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.about-stat-numbers .feature__body {
+    width: 100%;
+}
+
+.about-stat-numbers div > p {
+    display: inline-block;
+    width: 100% !important;
 }
