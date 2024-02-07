@@ -193,7 +193,9 @@ footer ul {
 
 .fm-elements > div {
     height: 100%;
-    padding: 1rem !important;
+    padding: 1.5rem !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 1rem !important;
 }
 
 .fm-elements {
@@ -235,4 +237,14 @@ footer ul {
 .about-stat-numbers div > p {
     display: inline-block;
     width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .investing-label {
+        display: inline-block;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        margin-left: -0.4rem !important;
+    }
 }
