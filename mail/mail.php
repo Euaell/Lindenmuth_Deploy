@@ -31,7 +31,7 @@ $timeZone                   = 'America/Chicago';         // OPTIONAL, but some s
                                                              // See a list of all supported timezones at: http://php.net/manual/en/timezones.php
 
 // Google reCAPTCHA
-$recaptchaSecretKey         = '6LeLLiwUAAAAAHd0p-1a5_Hiq9eyb8wYOSQ5HSue';
+$recaptchaSecretKey         = '6Lc6rmwpAAAAAMah0kvLANCFeXgViwknBruCDOqL';
 $recaptchaErrorMessage      = 'There was a problem verifying the Google reCaptcha.  Please try again.';
 
 // Confirmation Message
