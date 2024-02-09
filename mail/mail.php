@@ -20,7 +20,7 @@ $sendingAccountUsername     = 'euaelesh@gmail.com';
 $sendingAccountPassword     = 'ypzkylykxrntbeoj';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
-$recipientEmail             = 'lindenmj@gmail.com'; // REQUIRED value.
+$recipientEmail             = 'justin@lindyrealty.com'; // REQUIRED value.
 $recipientName              = 'Justin Lindenmuth';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
