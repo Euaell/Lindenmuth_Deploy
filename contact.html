@@ -28,6 +28,8 @@
             }
         </script>
 
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
@@ -240,7 +242,7 @@
                                         <textarea rows="5" name="description" class="validate-required"></textarea>
                                     </div>
 
-                                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                                    <div class="g-recaptcha" data-sitekey="6Lc6rmwpAAAAAJtJUsgSvSnfQiCpNCu9RHegpizw"></div>
 
                                     <div class="col-md-12 boxed">
                                         <button type="submit" class="btn btn--primary type--uppercase">Let’s Do Some Business</button>
@@ -375,17 +377,5 @@
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
 
-        <!-- Recaptcha v3 -->
-        <script src="https://www.google.com/recaptcha/api.js?render=6Lc6rmwpAAAAAJtJUsgSvSnfQiCpNCu9RHegpizw"></script>
-        <script>
-            grecaptcha.ready(function () {
-                grecaptcha.execute('6Lc6rmwpAAAAAJtJUsgSvSnfQiCpNCu9RHegpizw', {
-                        action: 'contact'
-                    })
-                    .then(function (token) {
-                        recaptchaResponse.value = token;
-                    });
-            });            
-        </script>
     </body>
 </html>
